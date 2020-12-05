@@ -3,7 +3,7 @@
 ## Overview
 The repository includes a recipe file to build a Linux OSINT Distribution for Trace Labs based on the Kali Linux live-build-config (https://gitlab.com/kalilinux/build-scripts/live-build-config/-/tree/master).
 
-![alt text](https://github.com/tracelabs/tlosint-live/blob/master/image.png?raw=true "Tracelabs kali desktop")
+![image](https://user-images.githubusercontent.com/23207476/99865509-235c4500-2bfa-11eb-89fe-70d6685e1454.png)
 
 The following changes have been made to the default Kali git repo:
 * Creation of a folder for Tracelabs under the `kali-config/variant-tracelabs/package-lists/kali-list.chroot` path. The `kali-list.chroot` can be modified to add additional packages or remove pre-configured packages that are required as part of the build process. 
@@ -16,7 +16,7 @@ The following changes have been made to the default Kali git repo:
 
 ## Build Steps
 
-## Buildilng the ISO file on Docker
+## Building the ISO file on Docker
 You will need a host\vm with Docker-engine installed. Installation guide can be found here: https://docs.docker.com/engine/install/
 Once you have docker install, you just need to run:
 ```
@@ -54,6 +54,7 @@ https://www.tracelabs.org/initiatives/osint-vm
 * Stegosuite
 
 **Domains**
+* Domainfy (OSRFramework)
 * Sublist3r
 
 **Downloaders**
@@ -65,35 +66,37 @@ https://www.tracelabs.org/initiatives/osint-vm
 
 **Email**
 * Buster
+* Checkfy (OSRFramework)
 * Infoga
-* OSINT-Search
+* Mailfy (OSRFramework)
 * theHarvester
 * h8mail
 
 **Frameworks**
 * Little Brother
+* OSRFramework
 * sn0int
 * Spiderfoot
 * Maltego
 
 **Phone Numbers**
-* OSINT-Search
+* Phonefy (OSRFramework)
 * PhoneInfoga
 
 **Social Media**
 * Instaloader
 * Twint
+* Searchfy (OSRFramework)
 
 **Usernames**
+* Alias Generator (OSRFramework)
 * Sherlock
+* Usufy (OSRFramework)
 
-**Other tools (not listed in the menu)**
-* checkdmarc
+**Other tools
 * Photon
-* Carbon14
 * Sherlock
 * Shodan
-* Wireshark
 
 ## Configuration Settings
 **Firefox**
