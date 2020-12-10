@@ -50,6 +50,8 @@ sqlite3-doc
 ruby-dev
 libpq-dev
 python-dev
+nodejs
+npm
 
 # Custom tools
 spiderfoot
@@ -78,10 +80,3 @@ chromium
 torbrowser-launcher
 tor
 firefox-esr
-
-#browser extensions
-webext-https-everywhere
-webext-browserpass
-webext-ublock-origin
-webext-privacy-badger
-webext-bulk-media-downloader
